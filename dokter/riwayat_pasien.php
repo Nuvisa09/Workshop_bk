@@ -68,7 +68,7 @@
                     
               </div>
                     <div class="card-footer">
-                      <a href="?page=dashboard" class="btn btn-danger"><i class="fas fa-undo"></i> Cancel </a>
+                      <a href="?page=dashboard" class="btn btn-danger"><i class="fas fa-undo"></i> Kembali</a>
                     </div>
               <!-- /.card-body -->
             </div>

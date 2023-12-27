@@ -24,7 +24,7 @@
             <div class="card">
               <div class="card-header">
                 <h3 >List Daftar Periksa</h3>
-                <a href="?page=tambah_obat" class="btn btn-primary"> Add obat</a>
+                <!-- <a href="?page=tambah_obat" class="btn btn-primary"> Add obat</a> -->
               </div>
               <!-- /.card-header -->
               <div class="card-body">
@@ -56,7 +56,7 @@
                         <td><?php echo $data['biaya_periksa']; ?> <br><a href="?page=detail_periksa" class="btn btn-success"><i class="fas fa-edit"></i>Detail Periksa</a></td>
 
                         <td>
-                            <a href="?page=list_periksa" class="btn btn-success"><i class="fas fa-edit"></i>Selesai</a>
+                            <a href="?page=list_periksa" class="btn btn-success">Selesai</a>
                             <a href="?page=dashboard" class="btn btn-danger"><i class="fas fa-undo"></i> Kembali </a>
                         </td>
                     </tr>

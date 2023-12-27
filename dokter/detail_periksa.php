@@ -53,7 +53,7 @@
                       
                         <td>
                             <a href="?page=edit_periksa&aksi=periksa&id=<?php echo $data['id'];?>" class="btn btn-success"><i class="fas fa-edit"></i>Edit</a>
-                            <a href="?page=list_periksa" class="btn btn-danger"><i class="fas fa-undo"></i> Cancel </a>
+                            <a href="?page=list_periksa" class="btn btn-danger"><i class="fas fa-undo"></i> kembali</a>
                         </td>
                     </tr>
                     <?php
