@@ -14,7 +14,7 @@ if(isset($_GET['keluar'])){
 <?php 
 
 include '../template/topmenu.php';
-include '../template/sidemenu_admin.php';
+include '../template/sidemenu_pasien.php';
 include '../conf/koneksi_dua.php';
 
 ?>
@@ -27,25 +27,21 @@ switch($_GET['page']){
       include 'dashboard.php';
       break;
 
-  // default:
-  //     include 'dashboard.php';
+  case 'daftar_poli';
+      include 'daftar_poli.php';
+      break;
+
+  case 'riwayat_poli';
+      include 'riwayat_poli.php';
+      break;
+
+  // case 'edit_obat';
+  //     include 'edit_obat.php';
   //     break;
 
-  case 'list_obat';
-      include 'list_obat.php';
-      break;
-
-  case 'tambah_obat';
-      include 'tambah_obat.php';
-      break;
-
-  case 'edit_obat';
-      include 'edit_obat.php';
-      break;
-
-  case 'hapus_obat';
-      include 'hapus_obat.php';
-      break;
+  // case 'hapus_obat';
+  //     include 'hapus_obat.php';
+  //     break;
 }
 
 ?>

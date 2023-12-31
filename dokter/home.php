@@ -1,3 +1,4 @@
+
 <?php
 
 session_start();
@@ -14,7 +15,7 @@ if(isset($_GET['keluar'])){
 <?php 
 
 include '../template/topmenu.php';
-include '../template/sidemenu.php';
+include '../template/sidemenu_dokter.php';
 include '../conf/koneksi_dua.php';
 
 ?>

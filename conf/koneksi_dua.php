@@ -9,7 +9,7 @@ $database = "pasien_poli";
 
 $koneksi = mysqli_connect($host, $username, $password, $database);
 
-// if($koneksi){
+// if($conn){
 //     echo "database terhubung";
 // }else{
 //     echo "Database error";
